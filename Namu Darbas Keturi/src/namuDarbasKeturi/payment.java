@@ -2,7 +2,7 @@ package namuDarbasKeturi;
 
 public interface payment {
 
-	String bankAccount = "Bank Saskaita";
+	String bankAccount = "Bank Account";
 	
 	public long bankAccount();
 	public void ammount();

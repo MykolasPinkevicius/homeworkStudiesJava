@@ -1,0 +1,72 @@
+package sport;
+
+import java.util.ArrayList;
+
+public class Team1<T extends Player> implements Comparable<Team1<T>> {
+
+	private String name;
+	int played = 0;
+	int won = 0;
+	int lost = 0;
+	int tied = 0;
+
+	private ArrayList<T> members = new ArrayList<>();
+
+	public Team1(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public boolean addPlayer(T player) {
+		if (members.contains(player)) {
+			System.out.println((player).getName() + " is already on a team");
+			return false;
+		} else {
+			members.add(player);
+			System.out.println((player).getName() + " was added for the team " + this.name);
+			return true;
+		}
+	}
+
+	public int numPlayers() {
+		return this.members.size();
+	}
+
+	public void matchResults(Team1<T> opponent, int ourScore, int theirScore) {
+
+		String message;
+
+		if (ourScore > theirScore) {
+			won++;
+			message = " beat ";
+		} else if (ourScore == theirScore) {
+			tied++;
+			message = " drew with ";
+		} else {
+			lost++;
+			message = " lost to ";
+		}
+		if (opponent != null) {
+			System.out.println(this.getName() + message + opponent.getName());
+			opponent.matchResults(null, theirScore, ourScore);
+		}
+	}
+
+	public int ranking() {
+		return (won * 2) + tied;
+	}
+
+	@Override
+	public int compareTo(Team1<T> team) {
+		if (this.ranking() > team.ranking()) {
+			return -1;
+		} else if (this.ranking() > team.ranking()) {
+			return 1;
+		} else {
+			return 0;
+		}
+	}
+}

@@ -62,12 +62,19 @@ public class Mainer {
 		System.out.println("");
 		System.out.println("Tips " + c1.getTips());
 		System.out.println("Total Price " + c1.totalPriceWithTip());
+		System.out.println("--------------------");
 		
 		numberOfCurrentOrder = numberOfCurrentOrder + 1;
 		i++;
 		}
 		
-		
+//		// Problema: Negalima ideti daugiau uzsakymu, tik vieno tipo uzsakyma.
+//		
+//		for(CoffeePrices p: CoffeePrices.values()) {
+//			System.out.println(p.getPricesOfCoffee());
+//		}
+//		System.out.println(CoffeePrices.values());
+//		
 		scan.close();
 		numberCoffeeOrderedScanner.close();
 	}

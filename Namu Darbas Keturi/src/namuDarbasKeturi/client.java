@@ -23,7 +23,7 @@ public class client implements payment{
 		}
 		@Override
 		public long bankAccount(){
-			result long BankAccount
+			return long bankAccount
 		};
 		public void ammount(){
 			
