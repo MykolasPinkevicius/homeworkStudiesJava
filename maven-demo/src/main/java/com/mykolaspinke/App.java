@@ -10,7 +10,7 @@ public class App {
 		RuleBasedNumberFormat formatter = new RuleBasedNumberFormat(location, RuleBasedNumberFormat.SPELLOUT);
 		
 		for	( int i = 1; i < args.length ; i++) {
-			System.out.print(formatter.format(Integer.parseInt(args[i])));
+			System.out.println(formatter.format(Integer.parseInt(args[i])));
 		}
 	}
 }

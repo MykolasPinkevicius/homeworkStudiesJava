@@ -16,4 +16,9 @@ public class Bliambda {
 			});
 	}
 
+	
+	
+	private static <T> void callFunction(Comparable<T> compare, T next) {
+		compare.compareTo(next);
+	}
 }

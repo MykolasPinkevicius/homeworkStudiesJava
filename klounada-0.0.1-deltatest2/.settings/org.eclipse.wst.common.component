@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="klounada-0.0.1-deltatest2">
+                
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+                
+        <dependent-module archiveName="spring-webmvc-5.0.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-webmvc-5.0.6.RELEASE/spring-webmvc-5.0.6.RELEASE">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="validation-api-2.0.1.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/validation-api-2.0.1.Final/validation-api-2.0.1.Final">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="spring-orm-5.0.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-orm-5.0.6.RELEASE/spring-orm-5.0.6.RELEASE">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="spring-tx-5.0.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-tx-5.0.6.RELEASE/spring-tx-5.0.6.RELEASE">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="spring-context-5.0.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-context-5.0.6.RELEASE/spring-context-5.0.6.RELEASE">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="mchange-commons-java-0.2.11.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mchange-commons-java-0.2.11/mchange-commons-java-0.2.11">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="spring-aop-5.0.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-aop-5.0.6.RELEASE/spring-aop-5.0.6.RELEASE">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="spring-jcl-5.0.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jcl-5.0.6.RELEASE/spring-jcl-5.0.6.RELEASE">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="spring-beans-5.0.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-beans-5.0.6.RELEASE/spring-beans-5.0.6.RELEASE">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="standard-1.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/standard-1.1.2/standard-1.1.2">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="spring-core-5.0.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-core-5.0.6.RELEASE/spring-core-5.0.6.RELEASE">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="spring-jdbc-5.0.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jdbc-5.0.6.RELEASE/spring-jdbc-5.0.6.RELEASE">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="spring-expression-5.0.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-expression-5.0.6.RELEASE/spring-expression-5.0.6.RELEASE">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="spring-web-5.0.6.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-web-5.0.6.RELEASE/spring-web-5.0.6.RELEASE">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <property name="context-root" value="klounada-0.0.1-deltatest2"/>
+                
+        <property name="java-output-path" value="/klounada-0.0.1-deltatest2/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>

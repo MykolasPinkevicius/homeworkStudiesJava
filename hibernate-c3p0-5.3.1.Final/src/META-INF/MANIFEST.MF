@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Implementation-Title: hibernate-c3p0
+Hibernate-VersionFamily: 5.3
+Automatic-Module-Name: org.hibernate.orm.c3p0
+Bundle-SymbolicName: org.hibernate.orm.c3p0
+Implementation-Version: 5.3.1.Final
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1527285289000
+Specification-Vendor: Hibernate.org
+Specification-Title: hibernate-c3p0
+Implementation-Vendor-Id: org.hibernate
+Bundle-Vendor: Hibernate.org
+Bundle-DocURL: http://www.hibernate.org/orm/5.3
+Import-Package: com.mchange.v2.c3p0,javax.sql,org.hibernate;version="[
+ 5.3,6)",org.hibernate.boot.registry.classloading.spi;version="[5.3,6)
+ ",org.hibernate.boot.registry.selector;version="[5.3,6)",org.hibernat
+ e.engine.jdbc.connections.internal;version="[5.3,6)",org.hibernate.en
+ gine.jdbc.connections.spi;version="[5.3,6)",org.hibernate.internal.lo
+ g;version="[5.3,6)",org.hibernate.internal.util.config;version="[5.3,
+ 6)",org.hibernate.service;version="[5.3,6)",org.hibernate.service.spi
+ ;version="[5.3,6)",org.jboss.logging;version="[3.3,4)",javax.transact
+ ion;version="[1.1,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.4.0.201707252008
+Implementation-Vendor: Hibernate.org
+Export-Package: org.hibernate.c3p0.internal;version="5.3.1.Final";uses
+ :="org.hibernate.boot.registry.selector,org.hibernate.engine.jdbc.con
+ nections.spi,org.hibernate.internal.log,org.hibernate.service.spi,org
+ .jboss.logging"
+Bundle-Version: 5.3.1.Final
+Bundle-Name: hibernate-c3p0
+Hibernate-JpaVersion: 2.2
+Created-By: 1.8.0_77 (Oracle Corporation)
+Implementation-Url: http://hibernate.org/orm
+Specification-Version: 5.3.1.Final
+
