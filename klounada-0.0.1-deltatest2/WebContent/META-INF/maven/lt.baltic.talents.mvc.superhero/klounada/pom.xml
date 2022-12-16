@@ -20,7 +20,7 @@
 		<failOnMissingWebXml>false</failOnMissingWebXml>
 		<maven.version>3.7.0</maven.version>
 		<tomcat.maven.version>2.2</tomcat.maven.version>
-		<spring.version>5.0.6.RELEASE</spring.version>
+		<spring.version>5.2.20.RELEASE</spring.version>
 		<hibernate.version>5.3.1.Final</hibernate.version>
 		<hibernate.validator>6.0.10.Final</hibernate.validator>
 		<c3p0.version>0.9.5.2</c3p0.version>
